@@ -1,0 +1,89 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  background-color: rgb(44, 41, 38);
+  overflow: hidden;
+}
+a {
+  text-decoration: none;
+  color: yellow;
+}
+.main-header {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(29, 26, 24);
+  padding: 0 20px;
+}
+.links {
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style: none;
+}
+.links li {
+  transition: ease-in-out 0.2s;
+  border-bottom: 1px solid transparent;
+}
+.links li:hover {
+  border-bottom: 1px solid yellow;
+}
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(238, 164, 80);
+  text-transform: uppercase;
+  margin-left: 30px;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  transition: ease-in-out 0.2s;
+}
+.logo:hover {
+  border-top: 2px solid rgb(238, 164, 80);
+  border-bottom: 2px solid rgb(238, 164, 80);
+}
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  color: rgb(238, 164, 80);
+}
+.food-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  top: 50px;
+  left: 30px;
+}
+.image2 {
+  border-radius: 8px;
+  height: 300px;
+  width: 500px;
+  margin-right: 50px;
+  transition: ease-in-out 0.2s;
+  object-fit: cover;
+}
+.image2:hover {
+  transform: scale(1.05);
+}
+.food-item-content {
+  color: rgb(238, 164, 80);
+  text-align: center;
+}
+.food-item-content a {
+  padding: 10px;
+  border: 1px solid yellow;
+  border-radius: 8px;
+  transition: ease-in-out 0.2s;
+}
+.food-item-content a:hover {
+  background-color: yellow;
+  color: black;
+}
+h2 {
+  cursor: pointer;
+}
